@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form
+        </title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Your details:
+                </legend>
+                <label >
+                    Name:
+                    <input type="text" >
+                </label><br>
+                <label > Email:
+                    <input type="email">
+                </label><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>
+                    Your review:
+                </legend>
+                <p>
+                    <label >
+                        How did u hear about us?
+                    </label>
+                    <select name="referrer" >
+                        <option value="Google">Google</option>
+                        <option value="friend">friend</option>
+                        <option value="advert">advert</option>
+                        <option value="other">other</option>
+                    </select>
+                </p>
+                <p>
+                    Would u visit again?
+                    <label>
+                        <input type="radio" name="one">yes
+                    </label>
+                    <label >
+                        <input type="radio" name="one">no
+                    </label>
+                    <label >
+                        <input type="radio" name="one">May be
+                    </label>
+                </p>
+                <p>
+                    <label for="comments">
+                        Comments:
+                    </label><br>
+                    <textarea id="comments" cols="30" rows="10">
+
+                    </textarea>
+                </p>
+                <p>
+                    <label >
+                        <input type="checkbox">
+                        Sign me up for email updates.
+                    </label><br>
+                    <input type="submit" value="submit review">
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
